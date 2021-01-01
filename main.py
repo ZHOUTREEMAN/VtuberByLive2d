@@ -20,14 +20,6 @@ newLeft = (screen.width() - size.width()) / 2
 newTop = (screen.height() - size.height()) / 2
 browser.setGeometry(newLeft,newTop,1280,720)  #窗口的大小和位置设置
 browser.show()
-# time.sleep(5)
-# pyautogui.click(browser.geometry().x()+10, browser.geometry().x()+browser.geometry().y()-100, button ='left')  # 左击
-# print("666")
-# time.sleep(5)
-# pyautogui.click(browser.geometry().x()+browser.geometry().width() - 100, browser.geometry().x() + browser.geometry().y() - 100,button='left')  # 左击
-# print("666")
-# time.sleep(5)
-# pyautogui.click(browser.geometry().x()+10, browser.geometry().x()+browser.geometry().y()-100, button ='left')  # 左击
-# print("666")
+print(browser.geometry())
 app.exec_()
 
